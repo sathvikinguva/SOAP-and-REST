@@ -1,4 +1,4 @@
-package main.java.rest;
+package rest;
 
 import model.Course;
 import service.CourseService;

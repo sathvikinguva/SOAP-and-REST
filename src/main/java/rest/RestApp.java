@@ -1,4 +1,4 @@
-package main.java.rest;
+package rest;
 
 import org.glassfish.jersey.server.ResourceConfig;
 import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
@@ -10,7 +10,7 @@ public class RestApp {
     public static final String BASE_URI = "http://localhost:8081/api/";
 
     public static HttpServer startServer() {
-        final ResourceConfig rc = new ResourceConfig(CourseResource.class);
+        final ResourceConfig rc = new ResourceConfig(rest.CourseResource.class);
         return GrizzlyHttpServerFactory.createHttpServer(URI.create(BASE_URI), rc);
     }
 

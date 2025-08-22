@@ -36,7 +36,7 @@ This project provides both SOAP (JAX-WS) and REST (JAX-RS) web services for mana
 ### Run REST Service
 1. In terminal, run:
    ```
-   mvn exec:java -Dexec.mainClass=main.java.rest.RestApp
+   mvn exec:java "-Dexec.mainClass=rest.RestApp"
    ```
 2. REST API available at: `http://localhost:8081/api/courses`
 

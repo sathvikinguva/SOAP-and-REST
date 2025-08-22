@@ -1,4 +1,4 @@
-package main.java;
+
 
 import javax.xml.ws.Endpoint;
 import soap.CourseSOAPService;
