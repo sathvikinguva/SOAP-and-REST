@@ -1,0 +1,6 @@
+model\Course.class
+service\CourseService.class
+main\java\Main.class
+main\java\rest\RestApp.class
+main\java\rest\CourseResource.class
+soap\CourseSOAPService.class
