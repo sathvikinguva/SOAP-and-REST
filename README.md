@@ -1,4 +1,7 @@
+
 # University Course List Web Service
+
+GitHub Repository: [SOAP-and-REST](https://github.com/sathvikinguva/SOAP-and-REST.git)
 
 This project provides both SOAP (JAX-WS) and REST (JAX-RS) web services for managing university courses.
 
@@ -17,7 +20,7 @@ This project provides both SOAP (JAX-WS) and REST (JAX-RS) web services for mana
 - Maven
 
 ### Build the Project
-1. Open terminal in project root (`d:/Assignment-1`).
+1. Open terminal in the project root directory.
 2. Run:
    ```
    mvn clean package
